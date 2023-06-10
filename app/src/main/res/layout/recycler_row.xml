@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recyclerEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamünaleyküm"
+        android:textSize="23sp"
+        android:textColor="#3F51B5"
+        android:layout_margin="9dp">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="9dp"
+        android:id="@+id/recyclerImageView"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:id="@+id/recyclerCommentText"
+        android:textSize="21sp"
+        android:text="asdfasg"></TextView>
+</LinearLayout>
